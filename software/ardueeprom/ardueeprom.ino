@@ -1,5 +1,6 @@
 /*
- * EEPROM UTIL
+ * ArduEEPROM 
+ * EEPROM programming/testing suite
  * By Tim Havelka, 2020
  * github.com/thavelka
  * 
