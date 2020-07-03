@@ -12,7 +12,17 @@ Arduino Mega-based parallel EEPROM test/programming suite. Accomodates all paral
 ## Hardware
 Instructions for a DIY shield are provided in the [hardware](https://github.com/thavelka/ArduEEPROM/tree/master/hardware) directory, but you could make do with just a breadboard and the 74HC574 latch IC.
 
+#### Stripboard shield
 ![writer](https://i2.wp.com/thavelka.io/wp-content/uploads/2020/06/completewithchip.jpg?resize=768%2C576&ssl=1)
+
+#### Breadboard implementation
+* PORTA to latch in, then latch out to EEPROM A0-A7
+* PORTA also to EEPROM A8-A15
+* PORTC to EEPROM D0-D7
+* Digital pin 47 to latch clock
+* Digital pin 49 to CE#
+* Digital pin 51 to OE#
+* Digital pin 53 to WE#
 
 ## Software
 The sketch can be found in the [software](https://github.com/thavelka/ArduEEPROM/tree/master/software) directory. 
