@@ -12,10 +12,12 @@ Arduino Mega-based parallel EEPROM test/programming suite. Accomodates all paral
 ## Hardware
 Instructions for a DIY shield are provided in the [hardware](https://github.com/thavelka/ArduEEPROM/tree/master/hardware) directory, but you could make do with just a breadboard and the 74HC574 latch IC.
 
-![writer](https://i2.wp.com/thavelka.io/wp-content/uploads/2020/06/completewithchip.jpg)
+![writer](https://i2.wp.com/thavelka.io/wp-content/uploads/2020/06/completewithchip.jpg?resize=768%2C576&ssl=1)
 
 ## Software
 The sketch can be found in the [software](https://github.com/thavelka/ArduEEPROM/tree/master/software) directory. 
+
+![software](https://i2.wp.com/thavelka.io/wp-content/uploads/2020/06/romwrite.png?resize=768%2C575&ssl=1)
 
 ## Instructions
 0. Set `ROM_SIZE` and `PAGE_SIZE` constants in sketch to match your EEPROM's data sheet
