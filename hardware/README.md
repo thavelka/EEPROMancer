@@ -4,7 +4,7 @@ Fritzing files are not available, as this was an old project, but photos have be
 More information about this project [here](https://thavelka.io/2020/07/eeprom-writer-arduino/).
 
 ## Software
-The sketch can be found in the software directory [here](https://github.com/thavelka/ArduEEPROM/tree/master/software).
+The sketch can be found in the software directory [here](https://github.com/thavelka/EEPROMancer/tree/master/software).
 When running, the sketch can read and write pages, write data from serial input, clear the EEPROM, and enable and disable data protection.
 
 ## Construction
