@@ -1,4 +1,4 @@
-# ArduEEPROM
+# EEPROMancer
 Arduino Mega-based parallel EEPROM test/programming suite. Accomodates all parallel EEPROMS with up to 16 bits of addressing. For more information and other Z80 tools, see blog [here](https://thavelka.io/2020/07/eeprom-writer-arduino/).
 
 ## Capabilities
